@@ -32,7 +32,7 @@ export default function SEO({ title, description, canonicalPath }) {
     const canonicalLink = document.querySelector('link[rel="canonical"]');
     const path = canonicalPath || location.pathname;
     const cleanPath = path.endsWith('/') && path.length > 1 ? path.slice(0, -1) : path;
-    const fullCanonicalUrl = `https://mw-analytics.id${cleanPath}`;
+    const fullCanonicalUrl = `https://ganeca10.id${cleanPath}`;
 
     if (canonicalLink) {
       canonicalLink.setAttribute('href', fullCanonicalUrl);

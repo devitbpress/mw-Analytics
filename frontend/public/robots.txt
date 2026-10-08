@@ -3,5 +3,5 @@ User-agent: *
 Allow: /
 
 # Host & Sitemap Specification
-Host: https://mw-analytics.id
-Sitemap: https://mw-analytics.id/sitemap.xml
+Host: https://ganeca10.id
+Sitemap: https://ganeca10.id/sitemap.xml
