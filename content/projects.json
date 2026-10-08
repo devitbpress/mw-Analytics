@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "mangrove-analytics",
+    "title": "Mangrove Analytics",
+    "summary": "Web platform estimating mangrove carbon stock and ecosystem biomass in Pengudang.",
+    "description": "Interactive geospatial analytics web application designed for field researchers, environmental agencies, and community leaders. The platform synthesizes ground-truth tree measurements with satellite multispectral imagery to map carbon density across coastal mangrove zones in Pengudang.",
+    "year": 2025,
+    "category": "Community project",
+    "tags": ["Geospatial", "Carbon Stock", "Web App"],
+    "technologies": ["Python", "Flask", "React", "Leaflet"],
+    "proof_url": "https://mangrove-analytics.ganeca10.id/",
+    "proof_type": "website",
+    "thumbnail": "/images/projects/mangrove-analytics.svg",
+    "role": "Lead Analytics Consultant & Full-Stack Web Developer",
+    "outcomes": [
+      "Coupled field quadrat biomass sampling with Sentinel-2 satellite telemetry.",
+      "Generated interactive high-resolution carbon density maps accessible via web browser.",
+      "Delivered reproducible carbon stock estimation reports for regional conservation planning."
+    ],
+    "highlights": [
+      "Field & remote-sensing data integration",
+      "Interactive carbon stock spatial mapping",
+      "Exportable summary reports for decision makers"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/projects/mangrove-analytics.svg",
+        "alt": "Mangrove Carbon Mapping Dashboard",
+        "caption": "Spatial distribution layer showing mangrove biomass and carbon density calculations."
+      }
+    ],
+    "client_label": "Community service, Institut Teknologi Bandung",
+    "client_public": true,
+    "featured": true,
+    "dummy": false
+  },
+  {
+    "slug": "discover-pengudang",
+    "title": "Discover Pengudang",
+    "summary": "Tourism destination and coastal resource management platform.",
+    "description": "Comprehensive web platform promoting sustainable eco-tourism while tracking village coastal resources and visitor insights in Pengudang Village. Built to bridge community conservation awareness with digital destination marketing.",
+    "year": 2025,
+    "category": "Community project",
+    "tags": ["Tourism", "Resource Planning", "Web App"],
+    "technologies": ["React", "Vite", "Node.js"],
+    "proof_url": "https://discover-pengudang.ganeca10.id/home/",
+    "proof_type": "website",
+    "thumbnail": "/images/projects/discover-pengudang.svg",
+    "role": "Technical Lead & Web Developer",
+    "outcomes": [
+      "Built a mobile-first eco-tourism portal promoting Pengudang village coastal attractions.",
+      "Digitized community resource tracking for local management committees.",
+      "Enhanced visitor engagement through interactive itinerary guides."
+    ],
+    "highlights": [
+      "Eco-tourism destination portal",
+      "Local community resource tracking",
+      "Mobile-friendly visitor dashboard"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/projects/discover-pengudang.svg",
+        "alt": "Discover Pengudang Home Interface",
+        "caption": "Main portal interface featuring destination highlights and community initiatives."
+      }
+    ],
+    "client_label": "Community service, Institut Teknologi Bandung",
+    "client_public": true,
+    "featured": true,
+    "dummy": false
+  },
+  {
+    "slug": "supply-chain-simulation",
+    "title": "Supply Chain & Logistics Simulation",
+    "summary": "Agent-based simulation model testing distribution scenarios under disruption.",
+    "description": "Agent-based and discrete-event simulation model designed to evaluate distribution network bottlenecks, fleet routing under traffic delays, and warehouse capacity constraints prior to capital investment.",
+    "year": 2026,
+    "category": "Simulation modeling",
+    "tags": ["Agent-Based", "Logistics", "Scenario Testing"],
+    "technologies": ["AnyLogic", "Python", "OptaPlanner"],
+    "proof_url": "https://example.com/simulation-demo",
+    "proof_type": "simulation",
+    "thumbnail": "/images/projects/supply-chain-simulation.svg",
+    "role": "Simulation Modeling Specialist",
+    "outcomes": [
+      "Identified critical warehouse queue bottlenecks under simulated seasonal peak demand.",
+      "Evaluated 12 fleet re-routing scenarios to improve delivery window adherence.",
+      "Reduced estimated operational downtime risk by 18% in model stress tests."
+    ],
+    "highlights": [
+      "Multi-agent vehicle routing dynamic model",
+      "Bottleneck prediction under seasonal spikes",
+      "Interactive parameter sensitivity controls"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/projects/supply-chain-simulation.svg",
+        "alt": "Agent-Based Network Simulation Model",
+        "caption": "Dynamic agent-based visualization showing vehicle movement and queue buildup."
+      }
+    ],
+    "client_label": "Logistics Sector (dummy)",
+    "client_public": false,
+    "featured": true,
+    "dummy": true
+  },
+  {
+    "slug": "energy-grid-forecasting",
+    "title": "Regional Power Demand Forecasting",
+    "summary": "Machine learning system forecasting hourly grid load with explainable AI.",
+    "description": "Predictive analytics pipeline leveraging gradient boosting algorithms and time-series decomposition to provide regional grid operators with 72-hour load forecasts.",
+    "year": 2025,
+    "category": "Predictive modeling",
+    "tags": ["Machine Learning", "Time-Series", "Energy"],
+    "technologies": ["Python", "XGBoost", "Streamlit"],
+    "proof_url": "https://example.com/energy-dashboard",
+    "proof_type": "dashboard",
+    "thumbnail": "/images/projects/energy-grid-forecasting.svg",
+    "role": "Machine Learning Consultant",
+    "outcomes": [
+      "Achieved 96.4% load forecast accuracy across 72-hour prediction windows.",
+      "Integrated SHAP value feature attribution explaining weather and holiday impacts.",
+      "Automated real-time anomaly detection alerts for unusual peak spikes."
+    ],
+    "highlights": [
+      "72-hour load forecasting pipeline",
+      "Feature attribution explaining weather impact",
+      "Automated daily anomaly detection alerts"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/projects/energy-grid-forecasting.svg",
+        "alt": "Energy Load Forecasting Interface",
+        "caption": "Predictive load curves with confidence bands and feature attribution charts."
+      }
+    ],
+    "client_label": "Energy Sector (dummy)",
+    "client_public": false,
+    "featured": false,
+    "dummy": true
+  },
+  {
+    "slug": "coastal-ecosystem-model",
+    "title": "Coastal Carbon Ecosystem Estimator",
+    "summary": "Geospatial machine learning model estimating blue carbon sequestration.",
+    "description": "Spatial analysis coupling Landsat and Sentinel satellite imagery with ground truth soil sampling to monitor decade-long coastal vegetation dynamics and carbon storage.",
+    "year": 2024,
+    "category": "Geospatial analytics",
+    "tags": ["Geospatial", "Remote Sensing", "Carbon Stock"],
+    "technologies": ["QGIS", "Python", "Google Earth Engine"],
+    "proof_url": "https://example.com/coastal-model",
+    "proof_type": "website",
+    "thumbnail": "/images/projects/coastal-ecosystem-model.svg",
+    "role": "GIS & Remote Sensing Specialist",
+    "outcomes": [
+      "Quantified blue carbon stock changes over a 10-year historical trajectory.",
+      "Produced 10m spatial resolution vegetation density maps for environmental agencies.",
+      "Engineered automated cloud-based satellite data processing scripts."
+    ],
+    "highlights": [
+      "Decade-long land cover trend analysis",
+      "Sub-meter resolution blue carbon mapping",
+      "Interactive GIS layer viewer"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/projects/coastal-ecosystem-model.svg",
+        "alt": "Coastal Ecosystem Vegetation Map",
+        "caption": "Multi-spectral canopy vegetation density map across coastal zones."
+      }
+    ],
+    "client_label": "Environmental Sector (dummy)",
+    "client_public": false,
+    "featured": false,
+    "dummy": true
+  },
+  {
+    "slug": "factory-line-throughput",
+    "title": "Factory Assembly Throughput Optimizer",
+    "summary": "Discrete-event simulation identifying workstation bottlenecks.",
+    "description": "Operational discrete-event simulation model replicating automated assembly line cycles, buffer storage capacities, and maintenance downtime impact in modern manufacturing.",
+    "year": 2024,
+    "category": "Simulation modeling",
+    "tags": ["Discrete-Event", "Manufacturing", "Process Optimization"],
+    "technologies": ["AnyLogic", "Java", "SimPy"],
+    "proof_url": "https://example.com/factory-sim",
+    "proof_type": "simulation",
+    "thumbnail": "/images/projects/factory-line-throughput.svg",
+    "role": "Process Optimization Consultant",
+    "outcomes": [
+      "Pinpointed assembly station buffer starvation issues during peak cycles.",
+      "Recommended line balancing adjustments yielding a 15% throughput increase in simulation.",
+      "Evaluated predictive maintenance schedule shifts to minimize total line stoppage."
+    ],
+    "highlights": [
+      "Buffer storage queue optimization",
+      "Maintenance schedule impact testing",
+      "15% throughput improvement recommendation"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/projects/factory-line-throughput.svg",
+        "alt": "Assembly Line Discrete-Event Model",
+        "caption": "Workstation cycle time and buffer occupancy analytics panel."
+      }
+    ],
+    "client_label": "Manufacturing Sector (dummy)",
+    "client_public": false,
+    "featured": false,
+    "dummy": true
+  },
+  {
+    "slug": "port-terminal-optimization",
+    "title": "Automated Port Container Dispatch Simulator",
+    "summary": "Operational research model optimizing automated quay crane & AGV scheduling.",
+    "description": "Hybrid mathematical programming and simulation tool testing vessel berth allocation policies and container yard crane movement in maritime logistics.",
+    "year": 2025,
+    "category": "Research",
+    "tags": ["Research", "Maritime", "Optimization"],
+    "technologies": ["Python", "Gurobi", "SimPy"],
+    "proof_url": "https://example.com/port-simulator",
+    "proof_type": "paper",
+    "thumbnail": "/images/projects/supply-chain-simulation.svg",
+    "role": "Principal Researcher",
+    "outcomes": [
+      "Formulated a mixed-integer linear program for quay crane and AGV co-scheduling.",
+      "Reduced simulated vessel turnaround time by 12% across high-density port scenarios.",
+      "Published benchmark findings in peer-reviewed industrial engineering proceedings."
+    ],
+    "highlights": [
+      "Mixed-integer berth allocation formulation",
+      "Dynamic AGV traffic congestion resolution",
+      "Peer-reviewed academic research paper"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/projects/supply-chain-simulation.svg",
+        "alt": "Port Terminal Crane & AGV Dispatch Model",
+        "caption": "Container yard movement scheduling Gantt chart and queue status."
+      }
+    ],
+    "client_label": "Maritime Logistics Sector (dummy)",
+    "client_public": false,
+    "featured": false,
+    "dummy": true
+  },
+  {
+    "slug": "industrial-energy-audit",
+    "title": "Industrial Facility Energy Consumption Auditor",
+    "summary": "Enterprise analytics dashboard monitoring real-time factory power consumption.",
+    "description": "Data integration dashboard capturing smart meter telemetry across industrial manufacturing plant sections to identify energy waste and optimize tariff peak shaving.",
+    "year": 2026,
+    "category": "Industry",
+    "tags": ["Industry", "Energy Audit", "Dashboard"],
+    "technologies": ["Python", "Flask", "React", "Plotly"],
+    "proof_url": "https://example.com/energy-audit",
+    "proof_type": "dashboard",
+    "thumbnail": "/images/projects/energy-grid-forecasting.svg",
+    "role": "Industrial Energy Analytics Consultant",
+    "outcomes": [
+      "Identified off-shift standby power leakage in heavy machinery circuits.",
+      "Provided plant managers with automated peak-shaving tariff alerts.",
+      "Targeted an estimated 8% reduction in annual electricity expenses."
+    ],
+    "highlights": [
+      "Real-time smart meter data pipeline",
+      "Off-shift power leakage detection",
+      "Peak-shaving tariff cost reduction"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/projects/energy-grid-forecasting.svg",
+        "alt": "Industrial Energy Dashboard Interface",
+        "caption": "Real-time sub-metering power consumption breakdown by plant section."
+      }
+    ],
+    "client_label": "Industrial Manufacturing Sector (dummy)",
+    "client_public": false,
+    "featured": false,
+    "dummy": true
+  }
+]

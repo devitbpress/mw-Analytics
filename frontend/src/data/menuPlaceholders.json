@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ph-bi-dashboard-1",
+    "menuLabel": "Interactive Dashboard (TBD)",
+    "menuDescription": "An interactive dashboard for exploring key operational metrics and performance data.",
+    "category": "data-analytics-bi",
+    "subgroup": "Dashboards",
+    "type": "website",
+    "placeholder": true
+  },
+  {
+    "id": "ph-bi-dashboard-2",
+    "menuLabel": "Executive KPI Report (TBD)",
+    "menuDescription": "A structured executive report summarizing organizational key performance metrics.",
+    "category": "data-analytics-bi",
+    "subgroup": "Dashboards",
+    "type": "website",
+    "placeholder": true
+  },
+  {
+    "id": "ph-bi-dataset-1",
+    "menuLabel": "Kaggle Dataset (TBD)",
+    "menuDescription": "An open dataset published on Kaggle for research and analytical exploration.",
+    "category": "data-analytics-bi",
+    "subgroup": "Datasets & Notebooks",
+    "type": "dataset",
+    "placeholder": true
+  },
+  {
+    "id": "ph-bi-dataset-2",
+    "menuLabel": "Exploratory Data Analysis (TBD)",
+    "menuDescription": "A documented EDA notebook examining structure and statistical patterns in data.",
+    "category": "data-analytics-bi",
+    "subgroup": "Datasets & Notebooks",
+    "type": "dataset",
+    "placeholder": true
+  },
+  {
+    "id": "ph-ml-forecast",
+    "menuLabel": "Forecasting Model (TBD)",
+    "menuDescription": "A predictive machine learning model for time-series forecasting applications.",
+    "category": "ai-ml-web-apps",
+    "subgroup": "Predictive Models",
+    "type": "external",
+    "placeholder": true
+  },
+  {
+    "id": "ph-ml-classify",
+    "menuLabel": "Classification Model (TBD)",
+    "menuDescription": "A supervised machine learning classification model applied to structured data.",
+    "category": "ai-ml-web-apps",
+    "subgroup": "Predictive Models",
+    "type": "external",
+    "placeholder": true
+  },
+  {
+    "id": "ph-sim-sd",
+    "menuLabel": "AnyLogic System Dynamics Model (TBD)",
+    "menuDescription": "A system dynamics simulation model for strategic policy scenario analysis.",
+    "category": "operations-research-simulation",
+    "subgroup": "Simulation Models",
+    "type": "simulation",
+    "placeholder": true
+  },
+  {
+    "id": "ph-sim-abm",
+    "menuLabel": "Agent-Based Model (TBD)",
+    "menuDescription": "An agent-based simulation evaluating individual interactions and system dynamics.",
+    "category": "operations-research-simulation",
+    "subgroup": "Simulation Models",
+    "type": "simulation",
+    "placeholder": true
+  },
+  {
+    "id": "ph-or-scm",
+    "menuLabel": "Supply Chain Simulation (TBD)",
+    "menuDescription": "A discrete-event simulation model optimizing supply chain and workflow efficiency.",
+    "category": "operations-research-simulation",
+    "subgroup": "Process & Logistics",
+    "type": "simulation",
+    "placeholder": true
+  },
+  {
+    "id": "ph-or-queue",
+    "menuLabel": "Queueing / Resource Allocation Model (TBD)",
+    "menuDescription": "A queuing and resource allocation model designed for operational bottleneck removal.",
+    "category": "operations-research-simulation",
+    "subgroup": "Process & Logistics",
+    "type": "simulation",
+    "placeholder": true
+  }
+]

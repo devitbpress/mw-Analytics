@@ -1,0 +1,17 @@
+{
+  "name": "mw-analytics-root",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && pip install -r backend/requirements.txt",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "backend/venv/bin/python backend/app.py",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "check:links": "node scripts/check-links.js",
+    "import:publications": "node scripts/import-publications.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

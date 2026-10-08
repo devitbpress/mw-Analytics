@@ -1,0 +1,29 @@
+{
+  "name": "Meditya Wasesa Analytics",
+  "tagline": "Data analysis, simulation, and machine learning for evidence-based decisions.",
+  "email": "meditya@mw-analytics.id",
+  "address": "Ganesha Street No. 10, Bandung, West Java, Indonesia",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/meditya-wasesa/",
+    "scholar": "https://scholar.google.co.id/citations?user=ku9d3YgAAAAJ&hl=id",
+    "orcid": "https://orcid.org/0000-0002-3617-6401"
+  },
+  "home": {
+    "cta": {
+      "heading": "Have a data problem?",
+      "subtitle": "Tell us about your problem and the data you have.",
+      "button": "Email us"
+    },
+    "help": {
+      "heading": "How can we help?",
+      "intro": "Let's skip the technical language. What can we do for you?",
+      "body": "We help organizations decide with evidence. Using simulation, machine learning, and spatial analysis, we test options before resources are spent and deliver the results as research or web tools. Our work spans logistics, tourism, recycling supply chains, and mangrove carbon stock.",
+      "button": "Discuss your project",
+      "image_alt": "Server racks in a data center"
+    }
+  },
+  "umami": {
+    "script": "https://stats.ganeca10.id/script.js",
+    "websiteId": ""
+  }
+}

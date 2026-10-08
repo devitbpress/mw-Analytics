@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Host & Sitemap Specification
+Host: https://mw-analytics.id
+Sitemap: https://mw-analytics.id/sitemap.xml

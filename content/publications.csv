@@ -1,0 +1,4 @@
+id,title,authors,venue,type,year,quartile,sjr_year,doi,url,pdf_url
+pub-001,Agent-Based Modeling for Complex Supply Chain Resilience Under Operational Disruption,Meditya Wasesa; A. Rahmani; K. H. Tan,IEEE Transactions on Engineering Management,journal,2026,Q1,2025,10.1109/TEM.2026.11512909,https://ieeexplore.ieee.org/abstract/document/11512909,
+pub-002,A Hybrid System Dynamics and Machine Learning Framework for Urban Energy Demand Forecasting,Meditya Wasesa; S. Utomo,Journal of Cleaner Production,journal,2025,Q1,2024,10.1016/j.jclepro.2025.102341,https://example.com/pub-002,https://example.com/pub-002.pdf
+pub-008,Multi-Agent Scenario Testing for Regional Supply Network Disruption Recovery,Meditya Wasesa; H. Budianto,Proceedings of the International Conference on Industrial Engineering and Operations Management,conference,2022,,,10.46254/IEOM2022.091,https://example.com/pub-008,https://example.com/pub-008.pdf

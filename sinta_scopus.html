@@ -1,0 +1,474 @@
+<script>if ( window.history.replaceState ) {  window.history.replaceState( null, null, window.location.href );}</script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SINTA - Science and Technology Index</title>
+    <meta name="description" content="SINTA | Science and Technology Index">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="shortcut icon" type="image/png" href="https://sinta.kemdiktisaintek.go.id/public/assets/img/favicon_sinta.png" />
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/bootstrap.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/bootstrap-litera.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/select2.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/select2-bootstrap4.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/elusive-icons.min.css">
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/animate.css">
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/morphext.css">
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/main.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/flag-icons.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/responsive.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/plugin/datamaps/datamaps.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/plugin/autocomplete/jquery.autocomplete.css" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/assets/css/autocomplete.css" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://sinta.kemdiktisaintek.go.id/public/author/styles/alert.css">
+
+    <link rel="stylesheet" href="//unpkg.com/bootstrap-select@1.12.4/dist/css/bootstrap-select.min.css" type="text/css" />
+    <link rel="stylesheet" href="//unpkg.com/bootstrap-select-country@4.0.0/dist/css/bootstrap-select-country.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" type="text/css" />
+
+    <style type="text/css">
+        #mynetwork {
+            width: auto;
+            height: 600px;
+            border: 1px solid lightgray;
+        }
+
+        
+    </style>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ttskch/select2-bootstrap4-theme@x.x.x/dist/select2-bootstrap4.min.css">
+
+
+</head>
+
+<body>
+
+    
+    
+    
+<div class="row no-gutters">
+    <div class="col-md-8">
+        <div class="navi animate__animated animate__slideInDown"  >
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="https://sinta.kemdiktisaintek.go.id">
+            <img src="https://sinta.kemdiktisaintek.go.id/public/assets/img/brand_sinta.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            <span class="brand-text">SINTA</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sinta.kemdiktisaintek.go.id"><i class="el el-home-alt"></i></a>
+                </li>
+                
+                <!-- <li class="nav-item">
+                                <a class="nav-link" href="#!">About</a>
+                            </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sinta.kemdiktisaintek.go.id/authors">Author</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sinta.kemdiktisaintek.go.id/subjects">Subjects</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Affiliations
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://sinta.kemdiktisaintek.go.id/affiliations">Affiliations</a>
+                        <a class="dropdown-item" href="https://sinta.kemdiktisaintek.go.id/departments">Departments</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://sinta.kemdiktisaintek.go.id/journals">Journal</a>
+                        <a class="dropdown-item d-none" href="https://sinta.kemdiktisaintek.go.id/books">Book</a>
+                        <a class="dropdown-item d-none" href="https://sinta.kemdiktisaintek.go.id/iprs">IPR</a>
+                        <a class="dropdown-item d-none" href="https://sinta.kemdiktisaintek.go.id/researches">Researches</a>
+                        <a class="dropdown-item d-none" href="https://sinta.kemdiktisaintek.go.id/comservices">Comunity Services</a>
+                        <a class="dropdown-item d-none" href="https://sinta.kemdiktisaintek.go.id/scopus">Scopus Documents</a>
+                        <a class="dropdown-item" href="https://sinta.kemdiktisaintek.go.id/home/checkquartilescopus">Check Quart. Scopus</a>
+                        <a class="dropdown-item d-none" href="https://sinta.kemdiktisaintek.go.id/google">GS Documents</a>
+                        
+                    </div>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sinta.kemdiktisaintek.go.id/home/faq">FAQ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sinta.kemdiktisaintek.go.id/wcu">WCU</a>
+                </li>
+                
+                                    <li class="nav-item">
+                        <a class="nav-link" href="https://sinta.kemdiktisaintek.go.id/logins/registration">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://sinta.kemdiktisaintek.go.id/logins">Login</a>
+                    </li>
+                            </ul>
+        </div>
+    </nav>
+</div>
+        <div class="content">
+            <div class="title-list row">
+                <div class="col-md-2 mt-1">
+                    <h5>Scopus</h5>
+                </div>
+                
+                <div class="col-lg">
+                    <form>
+                        <label class="small-lbl">Search Scopus Documents</label>
+                        <!-- <div class="input-group input-group-sm mb-3"> -->
+                            <input type="text" class="form-control form-control-sm" name="q" placeholder="Search..." aria-label="Search" aria-describedby="basic-addon2">
+                            <!-- <div class="input-group-append"> -->
+                                <!-- <span class="input-group-text" id="basic-addon2"> -->
+                                    <!-- <a data-toggle="tooltip" data-placement="left" title="Advanced search" href="#!"><i class="el el-cog"></i></a> -->
+                                <!-- </span> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    </form>
+                </div>
+            </div>
+            <div class="content-list mt-5 pt-4">
+                <div class="content-list-item">
+                                                                <nav aria-label="pagination-sample" class="mb-4 mt-2">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="?page=" tabindex="-1" aria-disabled="true">Previous</a>
+                                </li>
+                                                                    <li class="page-item active"><a class="page-link" href="?page=1">1</a></li>
+                                                                    <li class="page-item "><a class="page-link" href="?page=2">2</a></li>
+                                                                    <li class="page-item "><a class="page-link" href="?page=3">3</a></li>
+                                                                    <li class="page-item "><a class="page-link" href="?page=4">4</a></li>
+                                                                    <li class="page-item "><a class="page-link" href="?page=5">5</a></li>
+                                                                <li class="page-item ">
+                                    <a class="page-link" href="?page=2">Next</a>
+                                </li>
+                            </ul>
+                            <div class="text-center pagination-text"><small>Page 1 of 10.000 | Total Records 100.000</small></div>
+                        </nav>
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000000775&origin=resultslist" target="_blank">
+                                        The crystal chemistry of duftite, PbCuAsO4(OH) and the β-duftite problem                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Kharisun </a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>Mineralogical Magazine</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 1998</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 19 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q3 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000008897&origin=resultslist" target="_blank">
+                                        Thermal Isomerization of All-trans-Lutein in a Benzene Solution                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Subagio A.</a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>Bioscience Biotechnology and Biochemistry</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 1998</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 10 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q2 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000035135&origin=resultslist" target="_blank">
+                                        Constraints on coupling constants through charged photoproduction                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Mart T.</a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>Physical Review C</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 1995</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 84 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q1 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000043536&origin=resultslist" target="_blank">
+                                        Distribution and redistribution of sulfur supplied as [<sup>35</sup>S]sulfate to roots during vegetative growth of soybean                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Sunarpi </a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>Plant Physiology</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 1996</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 37 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q1 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000053553&origin=resultslist" target="_blank">
+                                        Pest management of psocids in milled rice stores in the humid tropics                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Santoso T.</a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>International Journal of Pest Management</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 1996</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 19 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q2 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000060106&origin=resultslist" target="_blank">
+                                        Asteroseismological observations of the central star of the planetary nebula NGC 1501                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Bond H.E.</a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>Astronomical Journal</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 1996</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 35 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q1 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000061528&origin=resultslist" target="_blank">
+                                        Optimal timing of gibberellin A4/7 application to increase female strobilus numbers in a Pinus radiata seed orchard                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Siregar I.Z.</a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>New Zealand Journal of Forestry Science</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 1996</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 7 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q2 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000062555&origin=resultslist" target="_blank">
+                                        Classifications and graph-based representations of switching functions using a novel complex spectral technique                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Rahardja S.</a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>International Journal of Electronics</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 1997</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 14 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q3 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000065302&origin=resultslist" target="_blank">
+                                        The distribution of arsenic compounds in the ocean: Biological activity in the surface zone and removal processes in the deep zone                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Santosa S.J.</a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>Applied Organometallic Chemistry</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 1996</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 21 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q1 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                    <div class="ar-list-item mb-4">
+                                <div class="ar-title">
+                                    <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-0000066477&origin=resultslist" target="_blank">
+                                        New role for glyoxylate cycle enzymes in wood-rotting basidiomycetes in relation to biosynthesis of oxalic acid                                    </a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a href="#!">Creator : Munir E.</a>
+                                    <a href="#!" class="ar-pub"><i class="el el-book"></i>Journal of Wood Science</a>
+                                </div>
+                                <div class="ar-meta">
+                                    <a class="ar-year" href="#!"><i class="zmdi zmdi-calendar"></i> 2001</a>
+                                    <a class="ar-cited" href="#!"><i class="zmdi zmdi-comment-list"></i> 48 cited</a>
+                                    <a class="ar-quartile" href="#!"><i class="zmdi zmdi-chart-donut"></i> Q4 Journal</a>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                                                <nav aria-label="pagination-sample" class="mb-4 mt-2">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="?page=" tabindex="-1" aria-disabled="true">Previous</a>
+                                </li>
+                                                                    <li class="page-item active"><a class="page-link" href="?page=1">1</a></li>
+                                                                    <li class="page-item "><a class="page-link" href="?page=2">2</a></li>
+                                                                    <li class="page-item "><a class="page-link" href="?page=3">3</a></li>
+                                                                    <li class="page-item "><a class="page-link" href="?page=4">4</a></li>
+                                                                    <li class="page-item "><a class="page-link" href="?page=5">5</a></li>
+                                                                <li class="page-item ">
+                                    <a class="page-link" href="?page=2">Next</a>
+                                </li>
+                            </ul>
+                            <div class="text-center pagination-text"><small>Page 1 of 10.000 | Total Records 100.000</small></div>
+                        </nav>
+                                    </div>
+                                    
+                            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-4 d-none d-md-block d-lg-block d-xl-block decor animate__animated animate__slideInRight">
+        <div class="side-top row">
+            <div class="col-md-4">
+                Get More with SINTA Insight
+            </div>
+            <div class="col-md-8">
+                <a name="" id="" class="btn btn-warning btn-block btn-md" href="https://sinta.kemdiktisaintek.go.id/insight" role="button">Go to Insight</a>
+            </div>
+        </div>
+        <div class="side-content">
+            <div id="top-dept" style="height: 500px"></div>
+        </div>
+    </div>
+    <div class="d-sm-block d-md-none">
+        <div class="side-content-sm">
+            Academic Rank
+        </div>
+        <div class="side-top-sm row">
+            <div class="col-md-4">
+                Get More with SINTA Insight
+            </div>
+            <div class="col-md-8">
+                <a name="" id="" class="btn btn-warning btn-block btn-md" href="https://sinta.kemdiktisaintek.go.id/insight" role="button">Go to Insight</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+    
+
+    <!-- JavaScript -->
+    <!-- jQuery first, then others -->
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/js/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/js/popper.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/js/select2.full.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/js/morphext.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/js/echarts/dist/echarts-en.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/js/echarts/dist/theme/macarons.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://sinta.kemdiktisaintek.go.id/public/assets/js/jquery.autocomplete.js" crossorigin="anonymous"></script>     -->
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/plugin/autocomplete/jquery.autocomplete.js" crossorigin="anonymous"></script>
+       
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/plugin/datamaps/d3.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/plugin/datamaps/topojson.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/plugin/datamaps/datamaps.idn.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://sinta.kemdiktisaintek.go.id/public/assets/plugin/chartjs/chart.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    
+    <script src="//unpkg.com/bootstrap-select@1.12.4/dist/js/bootstrap-select.min.js"></script>
+    <script src="//unpkg.com/bootstrap-select-country@4.0.0/dist/js/bootstrap-select-country.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script>
+        setTimeout(function() {
+            $('#alert-notif').fadeOut('fast');
+        }, 3000);
+
+        function show_faq(id){
+            $('#' + id).slideToggle();
+        }
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+
+        $('.countrypicker').countrypicker();
+    </script>
+
+    <script>
+        $(document).ready(function(){  
+            $(function () {
+                $('.datepicker-year').datepicker({
+                    autoclose: true,
+                    endDate: new Date(),
+                    format: 'yyyy',
+                    viewMode: "years", 
+                    minViewMode: "years"
+                });
+            });
+
+            $(function () {
+                $('.datepicker-date').datepicker({
+                    todayHighlight: true,
+                    endDate: new Date(),
+                    autoclose: true,
+                    format: 'yyyy-mm-dd',
+                    maxDate: '0'
+                });
+            });
+        });
+    </script>
+	
+	<script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        });
+
+        $('.popover-dismiss').popover({
+            trigger: 'focus'
+        })
+    </script>
+
+    
+
+    
+
+<iframe src="https://sinta.kemdikbud.go.id/stat" style="display: none;"></iframe>
+
+<!--
+-->
+</body>
+
+</html>

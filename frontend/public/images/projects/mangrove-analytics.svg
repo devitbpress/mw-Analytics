@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#F4F8FD"/>
+  <rect x="0" y="0" width="800" height="8" fill="#063499"/>
+  <!-- Decorative Grid & Graphic -->
+  <g opacity="0.15" stroke="#063499" stroke-width="1.5">
+    <line x1="50" y1="50" x2="750" y2="50"/>
+    <line x1="50" y1="150" x2="750" y2="150"/>
+    <line x1="50" y1="250" x2="750" y2="250"/>
+    <line x1="50" y1="350" x2="750" y2="350"/>
+    <line x1="200" y1="50" x2="200" y2="350"/>
+    <line x1="400" y1="50" x2="400" y2="350"/>
+    <line x1="600" y1="50" x2="600" y2="350"/>
+  </g>
+  <!-- Data Chart Nodes -->
+  <path d="M 100 300 Q 250 120 400 220 T 700 100" fill="none" stroke="#063499" stroke-width="4"/>
+  <circle cx="100" cy="300" r="8" fill="#26CCFF"/>
+  <circle cx="400" cy="220" r="8" fill="#26CCFF"/>
+  <circle cx="700" cy="100" r="8" fill="#26CCFF"/>
+  <!-- Label Banner -->
+  <rect x="250" y="380" width="300" height="40" rx="8" fill="#031B4E"/>
+  <text x="400" y="405" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">MANGROVE ANALYTICS (LIVE DEMO)</text>
+</svg>

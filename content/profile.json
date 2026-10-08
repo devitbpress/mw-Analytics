@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "Meditya Wasesa",
+    "pronoun": "his",
+    "title": "Associate Professor of Business Analytics",
+    "titleStatus": "pending",
+    "affiliation": "School of Business and Management, Institut Teknologi Bandung (ITB)",
+    "expertiseGroup": "Decision Making and Strategic Negotiation (DMSN)",
+    "interests": [
+      "Business Analytics",
+      "Simulation Modeling",
+      "Logistics",
+      "Information Systems",
+      "Sustainability"
+    ]
+  },
+  "education": [
+    { "degree": "Ph.D., Management Information Systems", "institution": "Rotterdam School of Management, Erasmus University, Netherlands", "year": 2017, "status": "pending" },
+    { "degree": "M.Sc., Logistics Engineering", "institution": "Universität Duisburg-Essen, Germany", "year": 2007, "status": "pending" },
+    { "degree": "B.Eng., Mechanical Engineering", "institution": "Institut Teknologi Bandung (ITB)", "year": 2005, "status": "pending" }
+  ],
+  "roles": [
+    { "role": "Editor-in-Chief, Asian Journal of Technology and Management", "status": "pending" },
+    { "role": "Internal Auditor, ITB", "status": "pending" },
+    { "role": "Interim Director, ITB Press (Mar-Nov 2022)", "status": "pending" },
+    { "role": "Organizing Committee Chair, ICMEM 2021", "status": "pending" }
+  ],
+  "recognition": [
+    { "text": "2026 Asahi Glass Foundation Overseas Research Grant: Business Analytics for Sustainable and Environmentally Conscious Resource Policy", "status": "pending" }
+  ],
+  "selectedPublications": [
+    "Port service level prediction from truck trajectory data, Decision Support Systems (2017)",
+    "Machine learning model for international tourist arrival prediction, Journal of Tourism Futures (2022)",
+    "Hybrid simulation for lithium-ion battery recycling supply chain"
+  ],
+  "links": {
+    "googleScholar": "https://scholar.google.com/citations?user=ku9d3YgAAAAJ",
+    "linkedin": "https://www.linkedin.com/in/medityawasesa/",
+    "sbmProfile": "https://www.sbm.itb.ac.id/member/meditya/"
+  },
+  "company": { "visible": false },
+  "bios": {
+    "short": "Meditya Wasesa is an Associate Professor of Business Analytics at the School of Business and Management, Institut Teknologi Bandung (ITB). His work applies simulation modeling and data analytics to logistics, information systems, and sustainability.",
+    "standard": "Meditya Wasesa is an Associate Professor of Business Analytics at the School of Business and Management, Institut Teknologi Bandung (ITB), and a member of the Decision Making and Strategic Negotiation expertise group. He holds a Ph.D. in Management Information Systems from the Rotterdam School of Management, Erasmus University, an M.Sc. in Logistics Engineering from Universität Duisburg-Essen, and a B.Eng. in Mechanical Engineering from ITB. His research combines simulation modeling (system dynamics, agent-based, and discrete-event) with data analytics, with a focus on logistics, information systems, and sustainability.",
+    "expanded": "Meditya Wasesa is an Associate Professor of Business Analytics at the School of Business and Management, Institut Teknologi Bandung (ITB), and a member of the Decision Making and Strategic Negotiation expertise group. He holds a Ph.D. in Management Information Systems from the Rotterdam School of Management, Erasmus University, an M.Sc. in Logistics Engineering from Universität Duisburg-Essen, and a B.Eng. in Mechanical Engineering from ITB. His research combines simulation modeling (system dynamics, agent-based, and discrete-event) with data analytics, with a focus on logistics, information systems, and sustainability. Selected work includes port service level prediction from truck trajectory data, machine learning for international tourist arrival prediction, and hybrid simulation of lithium-ion battery recycling supply chains. Beyond research, he has taken on academic leadership and editorial roles at ITB and in scholarly publishing. He is a recipient of the 2026 Asahi Glass Foundation Overseas Research Grant for work on business analytics for sustainable and environmentally conscious resource policy."
+  },
+  "inHisOwnWords": [
+    { "question": "Where are you from?", "answer": "", "placeholder": true },
+    { "question": "What drives your research?", "answer": "", "placeholder": true },
+    { "question": "Favorite chart type", "answer": "", "placeholder": true },
+    { "question": "Outside of work", "answer": "", "placeholder": true }
+  ]
+}
